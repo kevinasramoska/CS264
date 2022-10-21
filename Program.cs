@@ -142,21 +142,6 @@ namespace MyNamespace
         }
     }
         static void Main(string[] args){
-            // Circle circle = new Circle(100, 100, 50);
-            // Rectangle rectangle = new Rectangle(100, 100, 50);
-            // Ellipse ellipse = new Ellipse(100, 100, 50, 50);
-            // Line line = new Line(100, 100, 150, 150);
-            // Polyline polyline = new Polyline(100, 100, 150, 150, 200, 200, 250, 250);
-            // Polygon polygon = new Polygon(100, 100, 150, 150, 200, 200, 250, 250);
-            // Path path = new Path(100, 100, 150, 150, 200, 200, 250, 250);
-
-            // circle.printShape();
-            // rectangle.printShape();
-            // ellipse.printShape();
-            // line.printShape();
-            // polyline.printShape();
-            // polygon.printShape();
-            // path.printShape();
             List<string> canvas = new List<string>();
             string svgOpen = @"<svg height=""400"" width=""400"" xmlns=""http://www.w3.org/2000/svg"">" + Environment.NewLine;
             string svgClose = Environment.NewLine + @"</svg>";
